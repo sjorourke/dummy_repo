@@ -11,4 +11,4 @@ jobs:
     name: I'm doing stuff!
     steps:
       - name: Step 1
-        run: echo 'i am here'
+        run: echo 'im here'
