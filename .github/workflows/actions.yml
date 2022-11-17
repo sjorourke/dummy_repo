@@ -1,7 +1,11 @@
-name: sjo_temp
+name: sjo_temp for pr
 on:
-  push:
-    branches:
-      - main
+  issue_comment:
+    types: [created]
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened]
+
+jobs:
+  do_stuff:
+    name: I'm doing stuff!
+    run: echo 'im here'
