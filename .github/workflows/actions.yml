@@ -7,5 +7,8 @@ on:
 
 jobs:
   do_stuff:
+    runs-on: [self-hosted]
     name: I'm doing stuff!
-    run: echo 'im here'
+    steps:
+      - name: Step 1
+        run: echo 'i am here'
