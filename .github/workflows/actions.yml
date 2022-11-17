@@ -8,4 +8,4 @@ on:
 jobs:
   do_stuff:
     name: I'm doing stuff!
-    run: echo 'im here'
+    run: echo 'i am here'
